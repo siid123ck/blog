@@ -1,0 +1,39 @@
+@keyframes move-left{
+    0%{
+      opacity: 0; 
+      transform: translate(-9rem); 
+    }
+    76%{
+        transform: translate(2rem);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
+@keyframes move-right{
+    0%{
+      opacity: 0; 
+      transform: translate(9rem); 
+    }
+    76%{
+        transform: translate(-2rem);
+    }
+    100%{
+        transform: translate(0);
+    } 
+}
+@keyframes btn-move-down{
+    0%{
+        transform: translateY(3rem);
+        opacity: 0; 
+    }
+   
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.animated{
+    animation: btn-move-down 0.5s ease-out 0.8s;
+    animation-fill-mode: backwards;
+}
