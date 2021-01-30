@@ -1,0 +1,68 @@
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3000;
+    background-color: rgba($color-black,.8);
+    height: 100vh;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+    &:target {
+        opacity: 1;
+        visibility: visible;
+    }
+    &:target &-content {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+    &-content{
+        width: 75%;
+        background-color: $color-white;
+        @include BoxShad;
+        @include AbsCenter;
+        display: table;
+        transition: .5s;
+        transform: translate(-50%, -50%) scale(.25);
+    }
+
+    &-left{
+     width: 33.3333%;
+display: table-cell;   
+ }
+    &-right{
+       width: 66.3333%;
+display: table-cell;
+vertical-align: middle;
+padding: 3rem 5rem;
+    }
+    &-img{
+        display: block;
+        width: 100%;
+    }
+    &-text{
+      margin-bottom: 4rem;
+      font-size: 1.4rem;
+      column-count: 2;
+      column-gap: 4rem;
+      column-rule: 1px solid $color-light-gray;
+      -webkit-hyphens: auto;
+      hyphens: auto;
+    }
+    &-close{
+     &:link, &:visited{
+        position: absolute;
+        top: 2.5rem;
+        right: 2.5rem;
+        display: inline-block;
+        font-size: 3rem;
+        text-decoration: none;
+        color: $color-dark-gray;
+        transition: all .3s;
+        &:hover{
+            color: $color-primary;
+        }
+    }
+}
+}

@@ -1,5 +1,19 @@
-$color-primary:rgba(29, 6, 133, 0.966);
-$color-primary-light:rgba(47, 0, 255, 0.787);
-$color-dark-gray:#777;
+$color-primary:rgba(29, 6, 133, 1);
+$color-primary-light:rgba(47, 0, 255, 1);
+$color-light-gray:#eee;  
+$color-dark-gray:#777; 
+$color-extra-dark-gray:rgba(10, 19, 51, 0.76);
 $color-white:#fff;
 $color-black:rgba(0, 0, 0, 0.229); 
+$color-orange-dark:rgba(255, 68, 0, 0.918);
+$color-orange-light:rgb(255, 165, 0);
+$color-blue-light:rgba(0, 0, 255, 0.924);
+$color-blue-dark:rgba(0, 0, 255, 0.511); 
+$color-green-light:rgba(0, 254, 0, 0.924);
+$color-green-dark:rgba(0, 255, 0, 0.411); 
+$default-font-size:1.6rem;
+
+// grid 
+$grid-width:114rem;
+$gutter-vertical:8rem;
+$gutter-horizantal:6rem

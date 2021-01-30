@@ -3,14 +3,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/icon-fonts-styles.css">
     <link rel="stylesheet" href="css/style.css">
     <meta http-equiv="X-UA-COMPATIBLE" content="ie=edge" >
     <title>Document</title>
 </head>
 <body>
+  <div class="navigation">
+    <input type="checkbox" class="navigation-checkbox" id="navigation-toggle">
+    <label for="navigation-toggle" class="navigation-button">
+      <span class="navigation-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+    </label>
+    <div class="navigation-background">&nbsp;</div>
+    <nav class="navigation-nav">
+      <ul class="navigation-list">
+        <li class="navigation-item"><a href="#" class="navigation-link"><span>1</span> About us</a></li>
+        <li class="navigation-item"><a href="#" class="navigation-link"><span>2</span>Popular tours</a></li>
+        <li class="navigation-item"><a href="#" class="navigation-link"><span>3</span>Your planning</a></li>
+        <li class="navigation-item"><a href="#" class="navigation-link"><span>4</span>Book now</a></li>
+        <li class="navigation-item"><a href="#" class="navigation-link"><span>5</span>Stories</a></li>
+      </ul>
+    </nav>
+  </div>
   <header class="header">
+    
       <div class="header__logo-box">
-        <img src="img/logo.PNG" alt="logo" class="header__logo">
+        <img src="https://images.pexels.com/photos/3027138/pexels-photo-3027138.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="logo" class="header__logo">
       </div>
       <div class="header__text-box">
           <h1 class="heading-primary">
@@ -21,21 +43,308 @@
       </div>
   </header>  
   <section class="about">
-    <div class="u-content-center u-margin-8">
+    <div class="u-content-center u-mb-8">
      <h2 class="heading-secondary">
       Exiting tours for adventures people
     </h2> 
-    </div>
-    <div class="row">
-      <div class="col-1-of-2">
-        Content
+  </div>
+      <div class="row">
+        
+        <div class="col-1-of-2">
+          <h3 class="heading-teritiary mb-2">
+           You're going to fall in love with Mountain
+          </h3>
+          <p class="parragraph">
+            There are 10 Mountains higher than 8000m in nepal and 8 of them are in top 10 highest mountain in the world. The main one is Mt. Everest also called Sagarmatha which is about 8849 meters high
+          </p>
+          <h3 class="heading-teritiary mb-2">
+            This will be unforgetable experience
+          </h3>
+          <p class="parragraph">
+          I am sure that you will never forget this moment. You will enjoy to climb mountain Hardly people can go top of the mountain
+          </p>
+          <a href="#" class="btn-text">Learn more &rarr;</a>
+        </div>
+        <div class="col-1-of-2">
+          <div class="composition">
+             <img src="img/nat-1.jpg" alt="photo1" class="composition-photo composition-photo--p1">
+             <img src="img/nat-2.jpg" alt="photo2" class="composition-photo composition-photo--p2">
+             <img src="img/nat-3.jpg" alt="photo3" class="composition-photo composition-photo--p3">
+          </div>
+         </div>
       </div>
-      <div class="col-1-of-2">
-        images
+    
+  </section>
+  <section class="features">
+    <div class="row">
+      <div class="col-1-of-4">
+        <div class="feature-box">
+          <i class="feature-box_icon icon-basic-world"></i> 
+        <h3 class="heading-teritiary mb-small">Explore the world</h3>
+        <p class="feature-box_text">
+          You will enjoy to climb mountain Hardly people can go top of the mountain
+        </p>
+        </div>  
+      </div>
+      <div class="col-1-of-4">
+        <div class="feature-box">
+          <i class="feature-box_icon icon-basic-map"></i> 
+        <h3 class="heading-teritiary mb-small">Meat Beauty of Nature</h3>
+        <p class="feature-box_text">
+          You will enjoy to climb mountain Hardly people can go top of the mountain
+        </p>
+        </div>  
+      </div>
+      <div class="col-1-of-4">
+        <div class="feature-box">
+          <i class="feature-box_icon icon-basic-world"></i> 
+        <h3 class="heading-teritiary compass">Find Your Way</h3>
+        <p class="feature-box_text">
+          You will enjoy to climb mountain Hardly people can go top of the mountain
+        </p>
+        </div>  
+      </div>
+      <div class="col-1-of-4">
+        <div class="feature-box">
+          <i class="feature-box_icon icon-basic-heart"></i> 
+        <h3 class="heading-teritiary mb-small">Live Your life</h3>
+        <p class="feature-box_text">
+          You will enjoy to climb mountain Hardly people can go top of the mountain
+        </p>
+        </div>  
       </div>
     </div>
   </section>
-  <!-- <section class="grid-test">
+  <section class="tours" id="section-tours">
+    <div class="u-content-center u-mb-big">
+      <h2 class="heading-secondary">
+       Most popular tours
+     </h2> 
+    </div>
+       <div class="row">
+         <div class="col-1-of-3"> 
+          <div class="card">
+            <div class="card_side card_side-front">
+              <div class="card_pic card_pic-1">
+                &nbsp;
+              </div>
+              <h4 class="card_heading"> 
+                <span class="card_heading_span card_heading_span-1">the rever explorer</span>
+              </h4>
+              <div class="card_details">
+                <ul>
+                  <li>10 guests</li>
+                  <li>Popular hotels</li>
+                  <li>Trecking</li>
+                  <li>Enjoy Fishing</li>
+                  <li>Music mix</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card_side card_side-back card_side-back-1">
+              <div class="card_cta">
+                <div class="card_price-box">
+                  <p class="card_price-only">Only</p>
+                  <p class="card_price-value">$1000</p>
+                </div>
+                <a href="#popup" class="btn btn-white price-btn">Book Now</a>
+              </div>
+            </div>
+          </div>
+         </div>  
+         
+         <div class="col-1-of-3"> 
+          <div class="card">
+            <div class="card_side card_side-front">
+              <div class="card_pic card_pic-2">
+                &nbsp;
+              </div>
+              <h4 class="card_heading"> 
+                <span class="card_heading_span card_heading_span-2">the snow adventures</span>
+              </h4>
+              <div class="card_details">
+                <ul>
+                  <li>4 guests</li>
+                  <li>Few hotels</li>
+                  <li>Trecking</li>
+                  <li>Enjoy Nature</li>
+                  <li>Love the snow</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card_side card_side-back card_side-back-2">
+              <div class="card_cta">
+                <div class="card_price-box">
+                  <p class="card_price-only">Only</p>
+                  <p class="card_price-value">$5000</p>
+                </div>
+                <a href="#popup" class="btn btn-white price-btn">Book Now</a>
+              </div>
+            </div>
+          </div>
+         </div>  
+         
+         <div class="col-1-of-3"> 
+          <div class="card">
+            <div class="card_side card_side-front">
+              <div class="card_pic card_pic-3">
+                &nbsp;
+              </div>
+              <h4 class="card_heading"> 
+                <span class="card_heading_span card_heading_span-3">the forest hecking</span>
+              </h4>
+              <div class="card_details">
+                <ul>
+                  <li>Unlimited guests</li>
+                  <li>Popular hotels</li>
+                  <li>Trecking</li>
+                  <li>Enjoy with mates</li>
+                  <li>Music mix</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card_side card_side-back card_side-back-3">
+              <div class="card_cta">
+                <div class="card_price-box">
+                  <p class="card_price-only">Only</p>
+                  <p class="card_price-value">$1000</p>
+                </div>
+                <a href="#popup" class="btn btn-white price-btn">Book Now</a>
+              </div>
+            </div>
+          </div>
+         </div>  
+         
+         
+
+       </div>
+       <div class="u-content-center u-mt-big">
+        <a href="#" class="btn btn-blue">Discover all Tours</a>
+       </div>
+  </section>
+  <section class="stories">
+    <div class="bg-video">
+      <video class="bg-video-content" autoplay muted loop>
+      <source src="img/bg-video.mp4" type="video/mp4">
+       this video is not supported in your broswer
+    </video> 
+    </div>
+    <div class="u-content-center u-mb-8">
+      <h2 class="heading-secondary">
+       We guarantee to make you happy
+     </h2> 
+   </div>
+   <div class="row">
+     <div class="story">
+       <figure class="story-shape">
+         <img src="img/nat-7.jpg" class="story-img" alt="men's review">
+         <figcaption class="story-caption">San Lama</figcaption>
+       </figure>
+       <div class="story-text">
+        <h3 class="heading-teritiary mb-small">This was the best place i ever seen in my entire life</h3>
+          <p>i have a lot of things in my mind to tell about this place but i just wanna say wonderful you must visit this place. i am pretty sure that you will never regret</p>
+       </div>
+     </div>
+   </div>
+   <div class="row">
+     <div class="story">
+       <figure class="story-shape">
+         <img src="img/nat-8.jpg" class="story-img" alt="men's review">
+         <figcaption class="story-caption">Sara Maya</figcaption>
+       </figure>
+       <div class="story-text">
+        <h3 class="heading-teritiary mb-small">This was the lifetime experience</h3>
+          <p>i have a lot of things in my mind to tell about this place but i just wanna say wonderful you must visit this place. i am pretty sure that you will never regret</p>
+       </div>
+      </div>
+    </div>
+    <div class="u-content-center u-mt-big">
+      <a href="#" class="btn-text">See more stories &rarr;</a>
+     </div>
+  </section>
+  <section class="booking">
+    <div class="row row-booking">
+      <div class="book">
+        <div class="book-form">
+          <form action="#" class="form">
+            <div class="u-mb-medium">
+              <h2 class="heading-secondary">
+              Start booking now
+             </h2> 
+           </div>
+
+           <div class="form-group">
+             <input type="text" id="name" class="form-input" placeholder="Name" required>
+             <label for="name" class="form-label">Your Name</label>
+          </div>
+        
+          <div class="form-group">
+            <input type="email" id="email" class="form-input" placeholder="Email" required>
+            <label for="email" class="form-label">Your Email</label>
+          </div>
+          <div class="form-group">
+            <div class="form_radio-group">
+            <input type="radio" id="small" class="form_radio-input"  name="size">
+            <label for="small" class="form_radio-label"> <span class="form_radio-button"></span>  tour group</label>
+            </div>
+            <div class="form_radio-group">
+            <input type="radio" id="large" class="form_radio-input"  name="size">
+            <label for="large" class="form_radio-label"><span class="form_radio-button"></span>Large tour group</label>
+            </div>
+          </div>
+              <div class="form-group">
+                <button class="btn btn-blue">Next &rarr;</button>
+              </div>
+          </form>
+        </div>
+      </div>
+    </div>
+      
+         
+      
+  </section>
+  <section class="footer">
+    <div class="footer_logo-box">
+      <img src="img/nat-11.jpg" alt="footer-logo" class="footer-logo">
+    </div>
+    <div class="row">
+      <div class="col-1-of-2">
+        <div class="footer-navigation">
+          <ul class="footer-list">
+            <li class="footer-item"><a href="#" class="footer-link">About us</a></li>
+            <li class="footer-item"><a href="#" class="footer-link">Contact us</a></li>
+            <li class="footer-item"><a href="#" class="footer-link">Blogs</a></li>
+            <li class="footer-item"><a href="#" class="footer-link">Term </a></li>
+            <li class="footer-item"><a href="#" class="footer-link">Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-1-of-2">
+        <div class="footer-copyright">
+          Built by <a href="#" class="footer-link">Siid</a> in november 2019. djks jlf
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="popup" id="popup">
+    <div class="popup-content">
+      <div class="popup-left">
+        <img src="img/nat-7.jpg" alt="" class="popup-img">
+        <img src="img/nat-8.jpg" alt="" class="popup-img">
+      </div>
+      <div class="popup-right">
+       <a href="#section-tours" class="popup-close">&times;</a> 
+       <h2 class="heading-secondary u-mb-medium">Start booking now</h2>
+        <h3 class="heading-teritiary mb-small">Please read terms and conditions before you go ahead for booking</h3>
+        <p class="popup-text">
+          This is best opportunity for you to relax your mind. this is the only place where you can have full enjoyment of nature. i guarantee you will never see such beautiful view in your life
+          This is best opportunity for you to relax your mind. this is the only place where you can have full enjoyment of nature. i guarantee you will never see such beautiful view in your life
+        </p>
+        <a href="#" class="btn btn-blue">Book now</a>
+      </div>
+    </div>
+  </div>
+    <!-- <section class="grid-test"> 
     <div class="row">
       <div class="col-1-of-2">
         Col 1 of 2
@@ -48,6 +357,14 @@
       <div class="col-1-of-3">
         Col 1 of 3
       </div>
+      <div class="col-2-of-3">
+        Col 2 of 3
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1-of-3">
+        Col 1 of 3
+      </div>
       <div class="col-1-of-3">
         Col 1 of 3
       </div>
@@ -69,7 +386,26 @@
         Col 1 of 4
       </div>
     </div>
-  </section> -->
+    <div class="row">
+      <div class="col-1-of-4">
+        Col 1 of 4
+      </div>
+      <div class="col-1-of-4">
+        Col 1 of 4
+      </div>
+      <div class="col-2-of-4">
+        Col 2 of 4
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1-of-4">
+        Col 1 of 4
+      </div>
+      <div class="col-3-of-4">
+        Col 3 of 4
+      </div>
+    </div>
+  </section>   -->
  
 </body>
 </html>

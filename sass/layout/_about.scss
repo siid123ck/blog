@@ -1,0 +1,28 @@
+
+/* about-section */
+.about-section{
+    margin-bottom: 5rem;
+}
+.heading-secondary{    
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 2rem 0;  
+    display: inline-block;
+    background-image: linear-gradient(to right,$color-primary-light,$color-primary);
+    -webkit-background-clip:text;
+    letter-spacing: 0.2rem;
+    color: transparent;
+    &:hover{ 
+        transform: skewY(1deg) skewX(15deg) scale(1.1);
+    }
+}
+.heading-teritiary{   
+    font-size: $default-font-size;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.parragraph{ 
+    font-size: $default-font-size;
+  &:not(:last-child){margin-bottom: 3rem;}
+}
